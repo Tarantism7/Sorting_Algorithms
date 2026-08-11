@@ -1,7 +1,6 @@
 public class IntroSorter {
     private final int THRESHOLD = 16;
 
-    @Override
     public double[] sort(double[] a) {
         if (a == null || a.length <= 1) return a;
         introSort(a, 0, a.length - 1);
